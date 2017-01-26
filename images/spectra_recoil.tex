@@ -1,0 +1,40 @@
+\centering
+\sansmath
+\begin{tikzpicture}
+	\draw (0,5) -- (8,5);
+	\path [black,bend left,-,] (0,5.5) edge (4.75,5);
+	\path [black,bend left,-,] (8,4.5) edge (3.25,5);
+	\draw[black,dashed] (4.75,5) -- (4.75,4.25);
+	\draw[black,dashed] (3.25,5) -- (3.25,5.75);
+	\draw (4,5) -- (4,5.1);
+	\node at (4,4.8) {\tiny $E_0$};
+	\draw (1.75,5) -- (1.75,5.1);
+	\node at (1.75,4.8) {\tiny $E_0-E_R$};
+	\draw (6.25,5) -- (6.25,4.9);
+	\node at (6.25,5.2) {\tiny $E_0+E_R$};
+	\draw[dashed] (1.5,5) parabola (1.75,7);
+	\draw[dashed] (2,5) parabola (1.75,7);
+	\draw[dashed] (6,5) parabola (6.25,3);
+	\draw[dashed] (6.5,5) parabola (6.25,3);
+	\node at (2.8,6.25) {\tiny emission spectrum};
+	\node at (7.4,3.75) {\tiny absorption spectrum};
+	\draw (3.25,5.65) -- (3.35,5.75);
+	\draw (3.25,5.5) -- (3.45,5.7);
+	\draw (3.25,5.35) -- (3.55,5.65);
+	\draw (3.25,5.2) -- (3.65,5.6);
+	\draw (3.25,5.05) -- (3.75,5.55);
+	\draw (3.3,4.97) -- (3.85,5.5);
+	\draw (3.37,4.87) -- (3.95,5.45);
+	\draw (3.45,4.8) -- (4.05,5.4);
+	\draw (3.55,4.75) -- (4.15,5.35);
+	\draw (3.65,4.7) -- (4.25,5.3);
+	\draw (3.75,4.65) -- (4.35,5.25);
+	\draw (3.85,4.6) -- (4.45,5.2);
+	\draw (3.95,4.55) -- (4.55,5.15);
+	\draw (4.05,4.5) -- (4.65,5.1);
+	\draw (4.2,4.5) -- (4.7,5);
+	\draw (4.25,4.4) -- (4.75,4.9);
+	\draw (4.35,4.35) -- (4.75,4.75);
+	\draw (4.5,4.35) -- (4.75,4.6);
+	\draw (4.6,4.3) -- (4.75,4.45);
+\end{tikzpicture}
